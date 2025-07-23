@@ -16,3 +16,23 @@ nav ul{
 P{
     text-align: center;
 }
+
+.container{
+  width: 1320px;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.divItems{
+    flex-basis: 22%;
+    margin: 1%;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 0px 0px 2px gray;
+
+
+}

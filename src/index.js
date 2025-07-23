@@ -6,6 +6,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Course from './pages/Course';
+import Blog from './pages/Blog';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,6 +24,10 @@ let allRoute = createBrowserRouter(
     {
       path : 'course',
       element: <Course/>
+    },
+    {
+      path : 'blog',
+      element: <Blog/>
     }
   ]
 )
