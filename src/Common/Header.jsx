@@ -19,6 +19,9 @@ export default function Header() {
                 <li>
                     <Link to={'/blog'}>Blog</Link>
                 </li>
+                <li>
+                    <Link to={'/form'}>Contact Us</Link>
+                </li>
             </ul>
             </nav>
         </div>  

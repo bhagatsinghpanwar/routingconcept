@@ -20,7 +20,7 @@ P{
 .container{
   width: 1320px;
   margin: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-wrap: wrap;
   
@@ -35,4 +35,21 @@ P{
     box-shadow: 0px 0px 0px 2px gray;
 
 
+}
+.container{
+    margin-top: 10%;
+}
+
+form{
+    /* justify-items: center; */
+    margin: auto;
+}
+form label{
+
+    display: block;
+}
+form button {
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
 }
